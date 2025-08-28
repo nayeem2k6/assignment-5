@@ -12,7 +12,7 @@ for(const heartIcon of heartIcons) {
 }
 
 
-
+// copy button-work
 const copyButtons = document.getElementsByClassName("copy-btn");
 const numbers = document.getElementsByClassName("number");
 let copyCount = parseInt(document.getElementById("copy-count").innerText);
@@ -38,7 +38,7 @@ for (let i = 0; i < copyButtons.length; i++) {
 
 
 
-
+// coin collect work
 let coinCount = parseInt(document.getElementById("coin-count").innerText);
 const hotlineNumber = document.getElementsByClassName("number");
 const callingBtn = document.getElementsByClassName("calling-btn");
@@ -90,4 +90,4 @@ for (let i = 0; i < callingBtn.length; i++) {
 clearBtn.addEventListener("click", function (){
     const card = document.getElementById("parent-card");
     card.innerText = "";
-})
+});
